@@ -1,7 +1,16 @@
-* {
+*, ::before, ::after {
+    box-sizing: border-box;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #33272a;
     background-color: #faeee7;
+}
+body {
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
 }
 .title {
     padding: 10px;
@@ -18,20 +27,57 @@
     margin-right: auto;
     height: 300px;
     font-size: 20px;
-    border-width: 5px
+    border-width: 5px;
+    box-shadow: 0 0 10px;
 }
 .startpage p {
     background-color: white;
     color: black;
 }
-.startButton {
+.buttonLayout {
+    display:grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+    border-radius: 5px;
+    margin: 100px;
+    position: relative;
+    margin-block: auto; 
+    background-color: white;
+    margin-top: 0px;
+    
+}
+.btn {
+    position: relative;
+    margin-top: 24px;
     background-color: #ff8ba7;
     border-radius: 5px;
-    margin-top: 100px;
-    position: relative;
-    font-size: 25px;
-    border-width: 4px;
+    box-shadow: 0 0 10px;
+    padding: 5px 10px;
 }
+.startButton, .NextBtnHide {
+    background-color: #ff8ba7;
+    border-radius: 5px;
+    /* margin-top: 20%; */
+    font-size: 20px;
+    box-shadow: 0 0 10px;
+}
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 div button:hover {
     background-color: #c3f0ca;
 }
+.btn.correct {
+    background-color: green;
+}
+.btn.incorrect {
+    background-color: red;
+    color: white;
+}
+.hide {
+    display: none;
+}
+
