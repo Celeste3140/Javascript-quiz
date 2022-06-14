@@ -44,6 +44,7 @@ body {
     margin-block: auto; 
     background-color: white;
     margin-top: 0px;
+    padding-bottom: 20px;
     
 }
 .btn {
@@ -53,6 +54,10 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 10px;
     padding: 5px 10px;
+}
+#question {
+    background-color: white;
+    padding: 20px;
 }
 .startButton, .NextBtnHide {
     background-color: #ff8ba7;
@@ -65,6 +70,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 
 div button:hover {
