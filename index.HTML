@@ -11,7 +11,9 @@
     <h1 class="title">Javascript Basics Quiz</h1>
 </header>
 <body>
+    <h2 class= "Game-over" id="Alert"></h2>
     <div class="startpage">
+        <h2 id="final-score"></h2>
     <div class="container">
         <div id="question-box" class="hide">  
                 <div id="question">Questions</div>
@@ -22,7 +24,7 @@
                 <button class="btn">Answer4</button>      
                 </div>
             </div>
-            <p id="instructions">You will be timed! Press "Start" when you're ready and good luck!</p>
+            <p id="instructions">You will be timed! Press "Start" when you're ready and good luck! &#10024;</p>
         </div>
      <div class="controls">
             <button class="startButton" id="timer">Start</button>
@@ -30,6 +32,10 @@
         </div>
     </div>
 </body>
+<form class="savebtn">
+    <input  id="initials" type = "Text" Size="25" Value="initials here">
+    <input id="saveScoreBtn" class="btn" type="Submit" Value="Save">
+</form>
 <div id= "countdown"></div>
 </div>
 	<script src="script.js"></script>

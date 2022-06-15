@@ -17,6 +17,9 @@ body {
     text-align: center;
     font-size: 40px;
 }
+.Game-over {
+    text-align: center;
+}
 .startpage {
     border: solid;
     text-align: center;
@@ -39,12 +42,12 @@ body {
     grid-template-columns: repeat(2, auto);
     gap: 20px;
     border-radius: 5px;
-    margin: 100px;
     position: relative;
     margin-block: auto; 
     background-color: white;
     margin-top: 0px;
     padding-bottom: 20px;
+    padding: 10px;
     
 }
 .btn {
@@ -86,4 +89,8 @@ div button:hover {
 .hide {
     display: none;
 }
+input:hover {
+    background-color: #c3f0ca;
+}
+
 
