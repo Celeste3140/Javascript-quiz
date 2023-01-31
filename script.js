@@ -97,6 +97,7 @@ function clearStatusClass(element) {
     element.classList.remove("wrong")
 }
 
+// Questions 
 const question = [
     {
         questions: "What is the correct way to write a function?",

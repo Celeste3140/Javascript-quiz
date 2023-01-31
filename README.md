@@ -29,7 +29,6 @@ THEN I can save my initials and score
 ## Instructions 
 1. To start quiz select "Start"
     - Time will start simultaneously when "Start" is selected
-    - Select "Next" to move forward to next question
 2. Game will end when all questions are answered or when the timer runs out
     - Enter an initial to save game and score so others can see
 3. Your score should appear along with a list of other scores
