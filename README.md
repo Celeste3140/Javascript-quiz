@@ -3,7 +3,8 @@
 ## Description
 Time quiz on the fundamentals of Javascript code
 - Deployed app:
-- Screenshot: 
+- Screenshot: ![screencapture-file-C-Users-19514-OneDrive-Documents-repos-4-ucr-Javascript-quiz-Javascript-quiz-index-HTML-2023-01-30-18_44_39](https://user-images.githubusercontent.com/105468134/215650002-6883392e-ae70-4660-b693-1fc62cf0e8f4.png)
+
 
 ## User Story
 ```
